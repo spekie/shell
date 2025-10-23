@@ -1,0 +1,3 @@
+Even simpler shell than spesh,
+does not use stdlib.h for exit,
+minimal and even less features
