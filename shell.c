@@ -42,9 +42,9 @@ int main() {
 			break;
 
 		pid = fork();
-		if (pid < 0)
+		if (pid < 0) {
 			_exit(1);
-
+		}
 			if (pid == 0) {
 			tok = strtok(cmd, " \t");
 			i = 0;
